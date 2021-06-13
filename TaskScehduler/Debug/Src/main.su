@@ -1,0 +1,13 @@
+main.c:40:29:init_msp_stack	0	static,ignoring_inline_asm
+main.c:44:10:get_psp_of_curtask	4	static
+main.c:47:6:save_psp_of_curtask	16	static
+main.c:51:29:switch_sp_to_psp	0	static,ignoring_inline_asm
+main.c:60:6:tasks_stack_init	24	static
+main.c:85:6:update_next_task	4	static
+main.c:90:6:task1	8	static
+main.c:96:6:task2	8	static
+main.c:101:5:main	24	static
+main.c:136:28:SysTick_Handler	0	static,ignoring_inline_asm
+main.c:155:6:MemManage_Handler	8	static
+main.c:158:6:BusFault_Handler	8	static
+main.c:161:6:UsageFault_Handler	8	static
